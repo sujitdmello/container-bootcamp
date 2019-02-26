@@ -93,7 +93,7 @@ Take a look at the **Pods Pending Count** again and you should see that after a 
 
 You now have additional node capacity in your Azure Kubernetes Service cluster to be able to provision more pods.
 
-# AKS Autoscaler (optional)
+# AKS Autoscaler (optional) - **** Requires the cluster to be originally created with VMSS - no way to migrate stand-alone cluster ***** 
 Since early 2019 Azure Kubernetes Service (AKS) supports autoscaling (in preview). Autoscaling allows your AKS cluster to automatically add or remove nodes based on its current utilization. It can be enabled during cluster creation or afterwards for an existing cluster.
 
 To enable autoscaling in your existing environment you have to make sure that we have the following things in place:
