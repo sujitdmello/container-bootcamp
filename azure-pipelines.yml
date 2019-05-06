@@ -17,3 +17,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: AzurePowerShell@4
+  inputs:
+    ConnectedServiceNameARM: 'Visual Studio Enterprise(523db8cd-df91-4b0d-b0c3-07188ec220bf)'
+    ScriptType: 'InlineScript'
